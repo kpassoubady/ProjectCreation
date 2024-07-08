@@ -47,17 +47,17 @@ npm install -g ts-node
 npm install -D tslib @types/node
 ```
 
-6. Install dependencies: `npm install` or `yarn install` (if you're using Node.js)
-7. In the package.json file at the script
-   ```json:
-     "scripts": {
-      "start": "ts-node src/index.ts",
-      "test": "echo \"Error: no test specified\" && exit 1"
-      },
-   ```
-8. Start the project: `npm start` or `yarn start` (if you're using Node.js)
-9.  Assume you want to add `lodash` as one of your dependencies for the existing project
-  ```bash:
+1. Install dependencies: `npm install`
+2. In the package.json file at the script add a start command as shown below:
+  ```json:
+    "scripts": {
+    "start": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+    },
+  ```
+3. Start the project: `npm start` 
+4. Assume you want to add `lodash` as one of your dependencies for the existing project
+```bash:
   npm i -D lodash
   npm i --save-dev @types/lodash
-   ```
+  ```
