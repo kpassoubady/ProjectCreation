@@ -5,6 +5,20 @@ NPM Project Creation Example
 
 Setting up NPM Projects
 
+## CLONE AND SEND THE RESULT
+```bash
+git clone https://github.com/kpassoubady/ProjectCreation.git
+cd ProjectCreation
+npm i -g typescript ts-node # if you have not already globally installed
+npm i # package install
+ts-node "./src/modifyTextUsingLodash.ts"
+```
+### Send me the random number displayed at the end of the output
+Look at the result
+![Alt text](image.png)
+Send me the random number displayed at the end.
+
+
 ## STEP BY STEP GUIDE TO RECREATE THE PROJECT
 
 Follow these steps to install the project:
@@ -46,6 +60,8 @@ npm install -g ts-node
 # Depending on configuration, you may also need these
 npm install -D tslib @types/node
 ```
+
+
 ## Usages
 1. Install dependencies: `npm install`
 2. In the package.json file at the script add a start command as shown below:
@@ -65,3 +81,6 @@ npm install -D tslib @types/node
 ```
 node ./build/modifyTextUsingLodash.js --inspect
 ```
+
+
+
