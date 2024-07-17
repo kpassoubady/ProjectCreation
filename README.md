@@ -46,7 +46,7 @@ npm install -g ts-node
 # Depending on configuration, you may also need these
 npm install -D tslib @types/node
 ```
-
+## Usages
 1. Install dependencies: `npm install`
 2. In the package.json file at the script add a start command as shown below:
   ```json:
@@ -61,3 +61,7 @@ npm install -D tslib @types/node
   npm i -D lodash
   npm i --save-dev @types/lodash
   ```
+5. To debug, setup a few breakpoints in your code
+```
+node ./build/modifyTextUsingLodash.js --inspect
+```
