@@ -5,7 +5,7 @@ NPM Project Creation Example
 
 Setting up NPM Projects
 
-## Installation
+## STEP BY STEP GUIDE TO RECREATE THE PROJECT
 
 Follow these steps to install the project:
 
