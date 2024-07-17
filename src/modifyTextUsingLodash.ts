@@ -46,3 +46,9 @@ console.log(deburred); // "deja vu"
 str = 'Hello';
 const padded = _.pad(str, 10);
 console.log(padded); // "  Hello   "
+
+// Generates a random string with the specified length.
+const randomString = Math.random().toString(10).slice(2);
+console.log(randomString);
+
+
